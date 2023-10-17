@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./img/rm171-aew-06.jpg) no-repeat center center/ cover;
+}
+
+.container {
+  padding: 10px 15px;
+  width: 60vw;
+  text-align: center;
+  height: 500px;
+}
+
+.header {
+  margin: 20px auto;
+  padding: 10px 15px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+  padding: 50px 60px;
+  font-size: 1.5rem;
+}
+
+.author-name {
+  margin: 20px auto;
+  color: red;
+  font-size: 1.5rem;
+
+  & h3 {
+    font-weight: 600;
+  }
+}
+
+.button-area {
+  margin: 30px auto;
+
+  & button {
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    outline: none;
+  }
+
+  & button:hover {
+    background-color: transparent;
+    color: green;
+    cursor: pointer;
+  }
+}
+
+.qoute-content {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 15px;
+}
